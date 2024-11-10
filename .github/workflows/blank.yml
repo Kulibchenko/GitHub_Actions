@@ -1,6 +1,6 @@
 name: Kulibchenko
 env:
-  GITHUB_ACTIONS: "Github actions"
+  GITHUB_ACTIONS: Github actions
 on:
   pull_request:
     branches: [ "main" ]
