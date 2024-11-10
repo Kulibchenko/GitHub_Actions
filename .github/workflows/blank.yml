@@ -9,6 +9,6 @@ jobs:
   github-task-job:
     runs-on: ubuntu-latest
     steps:
-      - run: echo "Envirements is ${{ env.GITHUB_ACTIONS }}
-      - run: echo "Name of the branch  ${{ github.ref }} and your repository is ${{ github.repository }}
+      - run: echo "Envirements is ${{ env.GITHUB_ACTIONS }}"
+      - run: echo "Name of the branch  ${{ github.ref }} and your repository is ${{ github.repository }}"
       - run: echo "The job was triggered by a ${{ github.event_name }}"
