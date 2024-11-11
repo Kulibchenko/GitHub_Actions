@@ -1,4 +1,4 @@
-name: Kulibchenko
+name: ${{ github.actor }}
 env:
   GITHUB_ACTIONS: Github actions
 on:
